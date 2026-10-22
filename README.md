@@ -8,6 +8,20 @@ An n8n-based AI workflow that collects a candidate profile, generates targeted j
 
 > The demo asks for name, email, skills, preferred location, experience level, and work preference.
 
+## Project Preview
+
+### Candidate Input
+
+![Candidate form preview](docs/form-preview.svg)
+
+### Workflow Architecture
+
+![Workflow architecture](docs/architecture.svg)
+
+### Recommendation Email
+
+![Recommendation email preview](docs/email-preview.svg)
+
 ## Workflow
 
 ```text
@@ -58,6 +72,10 @@ ai-job-recommendation-n8n/
 ├── workflow/
 │   └── n8n-job-recommendation-sanitized.json
 └── docs/
+    ├── architecture.svg
+    ├── form-preview.svg
+    ├── email-preview.svg
+    ├── workflow-preview.svg
     ├── architecture.md
     └── setup.md
 ```
