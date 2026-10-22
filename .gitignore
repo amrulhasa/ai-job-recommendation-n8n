@@ -1,0 +1,24 @@
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local n8n exports that may contain credentials
+n8n-export.json
+n8n-workflow-export.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Python / local tooling
+__pycache__/
+.venv/
+venv/
